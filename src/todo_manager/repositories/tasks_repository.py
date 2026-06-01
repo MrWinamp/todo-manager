@@ -1,4 +1,4 @@
-from src.api.models.models import Task, NewTask
+from todo_manager.api.models.models import Task, NewTask
 import copy
 
 class TasksRepository():

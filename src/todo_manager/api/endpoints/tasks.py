@@ -1,9 +1,9 @@
-from src.services.tasks_service import TasksService
-from src.api.dependends import get_tasks_service
-from src.core.logger import logger
+from todo_manager.services.tasks_service import TasksService
+from todo_manager.api.dependends import get_tasks_service
+from todo_manager.core.logger import logger
 
 from fastapi import APIRouter, Response, status, Depends
-from src.api.models.models import Task, NewTask
+from todo_manager.api.models.models import Task, NewTask
 
 router = APIRouter()
 

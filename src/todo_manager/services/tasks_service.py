@@ -1,5 +1,5 @@
-from src.api.models.models import NewTask, Task
-from src.repositories.tasks_repository import TasksRepository
+from todo_manager.api.models.models import NewTask, Task
+from todo_manager.repositories.tasks_repository import TasksRepository
 
 class TasksService():
     def __init__(self, repository: TasksRepository):
